@@ -1,7 +1,7 @@
 # Visualize Towers of Hanoi!
 
 A program to visualize all the moves of Towers of Hanoi for any number of disks.
-To just run the program, download the towers.exe from "dist" directory and run.
+To just run the program, download the towers.exe and run.
 
 ## Dependencies
 
