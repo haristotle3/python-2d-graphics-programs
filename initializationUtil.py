@@ -2,6 +2,9 @@ from graphics import *
 from diskUtil import *
 from towersUtil import *
 
+# Maximum number of disk that is accepted as a valid input. 
+# Increasing max disks may result in an ugly stack of disks.
+
 MAX_DISKS = 10
 
 def initializeTowersOfHanoi(numDisks, hanoiWindow):
