@@ -26,6 +26,7 @@ def towersOfHanoi(numDisks):
     hanoiWindow.close()
     
 def moveTowers(N, source, destination, auxiliary):
+    "Recursive function exactly like a non-graphical program"
     if N == 1:
         update(MOVES_PER_SECOND)
         source.moveTopDiskTo(destination)
