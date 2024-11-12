@@ -22,8 +22,8 @@ def createWindow():
 
     return window
 
-def moleculeWithinBoundary(molecule, dx, dy):
-    "Checks if molecule is within boundary"
+def particleWithinBoundary(molecule, dx, dy):
+    "Checks if particle is within boundary"
     xcoord = molecule.getCenter().getX() + dx
     ycoord = molecule.getCenter().getY() + dy
     
@@ -52,7 +52,7 @@ def traceRandomWalk(window, clickedLocation):
             angle = 2 * pi * random()
             dx = cos(angle)
             dy = sin(angle)
-            if moleculeWithinBoundary(molecule, dx, dy): break
+            if particleWithinBoundary(molecule, dx, dy): break
         
         molecule.move(dx, dy)
         
