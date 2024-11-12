@@ -2,6 +2,7 @@
 
 A virtual pair of dice.
 Rolls are randomly generated.
+To just run the program, download diceRoller.exe and run.
 
 ## Dependencies
 
