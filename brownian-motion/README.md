@@ -1,4 +1,4 @@
-# Visualize Towers of Hanoi!
+# Visualize Brownian Motion!
 
 A program to visualize brownain motion.
 To just run the program, download the brownian.exe and run.
